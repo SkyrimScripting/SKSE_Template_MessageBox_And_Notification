@@ -21,7 +21,7 @@ A simple SKSE plugin for Skyrim using:
 
 ## What does it do?
 
-Whenever the player activates an item, e.g. opens a door or talks to an NPC or picks up a sword, it displays a message!
+Whenever the player activates an item, e.g. opens a door or picks up a sword, it displays a message!
 
 - A "Debug MessageBox" popup is displayed
 - A "Debug Notification" message is displayed (in the top-left of the game)
