@@ -1,8 +1,8 @@
 > 📜 other templates available at https://github.com/SkyrimScripting/SKSE_Templates
 
-# SKSE - SKSE Events
+# SKSE - Debug MessageBox and Notification
 
-- [SKSE - SKSE Events](#skse---skse-events)
+- [SKSE - Debug MessageBox and Notification](#skse---debug-messagebox-and-notification)
   - [What does it do?](#what-does-it-do)
   - [Requirements](#requirements)
   - [Project setup](#project-setup)
@@ -21,15 +21,10 @@ A simple SKSE plugin for Skyrim using:
 
 ## What does it do?
 
-It writes to a log file whenever an SKSE "message" is sent telling the plugin about an SKSE event.
+Whenever the player activates an item, e.g. opens a door or talks to an NPC or picks up a sword, it displays a message!
 
-Events include things like:
-- all SKSE plugins have loaded
-- all .esp/.esm data has been loaded
-- player started a new game
-- player saved the game
-- player loaded a game
-- player deleted a game
+- A "Debug MessageBox" popup is displayed
+- A "Debug Notification" message is displayed (in the top-left of the game)
 
 Read [`plugin.cpp`](plugin.cpp) for details on what it's doing!
 
